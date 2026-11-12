@@ -1,0 +1,119 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 100px;
+}
+
+.section {
+    padding: 50px;
+    min-height: 378px;
+}
+
+#hero-section {
+    background-image: url("images/torshov.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#hero-text {
+    background-color: #1D3557;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 0;
+}
+
+#hero-text-two {
+    background-color: #457B9D;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+    max-width: 412px;
+    font-size: 1.3rem;
+}
+
+#activities-section {
+    background-color: #F1FAEE;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #1D3557;
+}
+
+#activities-section-title {
+    font-size: 2rem;
+    margin: 0;
+}
+
+#activities-section-carousel {
+    display: flex;
+    justify-content: space-around;
+}
+
+.activity-card {
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.activity-card p {
+    margin: 0;
+}
+
+.activity-card img {
+    border-radius: 50%;
+}
+
+#guide-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#guide-card {
+    display: flex;
+    background-color: #A8DADC;
+    color: #1D3557;
+    max-width: 400px;
+    min-height: 294px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 16px 8px;
+    box-shadow: 0 6px 0 #1D3557;
+}
+
+#guide-card img {
+    max-height: 248.67px;
+    min-width: 180px;
+    border-radius: 10px;
+}
+
+#guide-card-text p {
+    font-style: italic;
+}
+
+#guide-card-text h3 {
+    font-size: 1.5rem;
+}
